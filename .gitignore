@@ -1,0 +1,27 @@
+# Virtualenv
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Local environment files
+.env
+.env.*
+
+# FAISS index / data
+faiss_index/
+user_info.csv
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Build
+dist/
+build/
+*.egg-info/

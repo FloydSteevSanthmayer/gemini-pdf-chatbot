@@ -1,0 +1,13 @@
+streamlit>=1.25.0
+PyPDF2>=3.0.0
+python-dotenv>=1.0.0
+google-generative-ai>=0.3.0
+langchain>=1.0.7
+langchain-core>=1.0.5
+# If PyPI's langchain-google-genai shows a broken 0.0.1, use the GitHub install instead:
+# pip install --upgrade --force-reinstall git+https://github.com/langchain-ai/langchain-google-genai.git
+langchain-google-genai>=0.0.2
+langchain-community>=0.2.0
+faiss-cpu>=1.7.4
+boto3>=1.26.0
+botocore>=1.29.0
